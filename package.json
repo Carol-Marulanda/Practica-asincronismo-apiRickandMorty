@@ -1,0 +1,33 @@
+{
+  "name": "practica-asincronismo-apirickandmorty",
+  "version": "1.0.0",
+  "description": "trabajar cn asincronismo en JavaScript",
+  "main": "src/index.js",
+  "scripts": {
+    "callback": "node src/callback/index.js",
+    "callback:challenge": "node src/callback/challenge.js",
+    "promise": "node src/promise/index.js",
+    "async":"node src/async/index.js",
+    "async:challenge":"node src/async/challenge.js",
+    "promise:challenge": "node src/promise/challenge.js"
+  },
+  "repository": {
+
+    "type": "git",
+    "url": "git+https://github.com/Carol-Marulanda/Practica-asincronismo-apiRickandMorty.git"
+  },
+  "keywords": [
+    "callbacks",
+    "promise",
+    "async"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Carol-Marulanda/Practica-asincronismo-apiRickandMorty/issues"
+  },
+  "homepage": "https://github.com/Carol-Marulanda/Practica-asincronismo-apiRickandMorty#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
